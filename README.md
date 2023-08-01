@@ -14,8 +14,10 @@ This script reads an HTML file (index.html), substitutes a placeholder in the HT
 
 
 <h2>How to Run</h2>
-You can run this program directly without passing any arguments. 
-Make sure to have your index.html in the same directory as your script.
+<ol>
+  <li>You can run this program directly without passing any arguments.</li>
+  <li>Make sure to have your index.html in the same directory as your script.</li>
+</ol>
 
 Copy code
 python3 script.py
