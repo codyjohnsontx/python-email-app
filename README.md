@@ -21,7 +21,7 @@ This script reads an HTML file (index.html), substitutes a placeholder in the HT
 
 Copy code
 python3 script.py
-Note: The email's sender, receiver, subject, SMTP host, and SMTP port are hard-coded into the script, as is the email password. Remember to keep your passwords secret and secure. Do not share the script with your password in it.
+<br>Note: The email's sender, receiver, subject, SMTP host, and SMTP port are hard-coded into the script, as is the email password. Remember to keep your passwords secret and secure. Do not share the script with your password in it.
 
 
 
