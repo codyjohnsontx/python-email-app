@@ -7,8 +7,11 @@ This Python script sends an HTML formatted email using the SMTP protocol.
 This script reads an HTML file (index.html), substitutes a placeholder in the HTML with a specific name, and sends the resulting HTML content as the body of an email. The email is sent using the SMTP server of Gmail.
 
 <h2>Requirements</h2>
-Python 3
-The smtplib and email.message standard libraries
+<ul>
+  <li>Python 3</li>
+  <li>The smtplib and email.message standard libraries</li>
+</ul>
+
 
 <h2>How to Run</h2>
 You can run this program directly without passing any arguments. 
