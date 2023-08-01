@@ -10,8 +10,8 @@ html = Template(Path('index.html').read_text())
 email = EmailMessage()
 
 # Setting the sender, receiver, and subject of the email
-email['from'] = 'Cody Johnson'
-email['to'] = 'codyjohnsontx@gmail.com'
+email['from'] = 'JohnSmith'
+email['to'] = 'JohnSmith@yahoo.com'
 email['subject'] = 'Hi, how are you?'
 
 # Setting the HTML content of the email, replacing a placeholder in the template with a specific name
@@ -26,7 +26,7 @@ with smtplib.SMTP(host='smtp.gmail.com', port=587) as smtp:
     smtp.starttls()
 
     # Logging in to the SMTP server
-    smtp.login('codyjohnsontx@gmail.com', 'qcqdbaundakyqstl')
+    smtp.login('JohnSmith@gmail.com', 'entercodehere')
 
     # Sending the email
     smtp.send_message(email)
